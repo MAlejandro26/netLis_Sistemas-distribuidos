@@ -1,6 +1,5 @@
 ﻿using Dominio;
 using Dominio.Model;
-using FluentValidation;
 using MediatR;
 using Persistencia;
 using System;
