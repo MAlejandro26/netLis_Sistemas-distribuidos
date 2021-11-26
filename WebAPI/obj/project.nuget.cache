@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dpw0kq89MirUyFWjP5lO73FSEe5p8M8FYAQqXRNnya8DiVOxoeV4xtq64a85bpQEF5k+h2gw+w3DNqfSh2UZwA==",
+  "dgSpecHash": "77V/QsQct9NoFyVzekqf+4ozSBSpEKQT4u5XYzrFfGXGpeHlY/rylau1ecbl5C9l9NOe6xbE5RoVBnGC5r3emA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Desktop\\netLis\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\netLis_Sistemas-distribuidos\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
