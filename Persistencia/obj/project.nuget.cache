@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GIhHS/2Go7akJiP8bHvNeMq829Ej7Nz8E2ziLMlF9pMlU42dvO6NAizzitZ1ywBlQr8O6Vh+X0YDZwWiCLBPQw==",
+  "dgSpecHash": "/bV7Nr3IiFYdna0VwAKkceI+XfQW69/iAYAyfxg+odcWzc3KYR4awfXy4X/suRcvFfjzDXLliNwRGAbXGn690g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Desktop\\netLis\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\netLis_Sistemas-distribuidos\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.12\\microsoft.aspnetcore.cryptography.internal.5.0.12.nupkg.sha512",

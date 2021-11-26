@@ -28,11 +28,6 @@
     <Folder Include="Medicos\" />
     <Folder Include="Pacientes\" />
     <Folder Include="ValoresNormales\" />
-    <Folder Include="UnidadMedidas\" />
-    <Folder Include="TipoUsuarios\" />
-    <Folder Include="TipoServicios\" />
-    <Folder Include="TipoSangre\" />
-    <Folder Include="TipoResultados\" />
     <Folder Include="TipoOrdens\" />
     <Folder Include="TipoMuestras\" />
     <Folder Include="Sucursales\" />

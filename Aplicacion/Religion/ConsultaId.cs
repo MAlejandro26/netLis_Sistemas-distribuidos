@@ -29,13 +29,13 @@ namespace Aplicacion.Religion
 
             public async Task<TblCatReligion> Handle(ReligionUnica request, CancellationToken cancellationToken)
             {
-                var religion = await _context.TblCatReligion.FindAsync(request.Id);
+                var dato = await _context.TblCatReligion.FindAsync(request.Id);
                 /*if (tipoOrden == null)
                 {
                     throw new ManejadorExcepcion(HttpStatusCode.NotFound, new { mensaje = "El curso no existe" });
                 }*/
 
-                return religion;
+                return dato;
             }
         }
 

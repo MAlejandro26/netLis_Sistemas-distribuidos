@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "srb+ABAjmresUj1jFmeZ6Bdnh+9iyuNQmoxPwYmyjCvzo5rf/sP0FVCrh8r48fg+1rxYMZfZY8uXaPDDsQh+SQ==",
+  "dgSpecHash": "kXTexXyqgITxSR+8qevAP7FAq22GsD+TXmFTrzFzEJw7Jo73E4rF9VtfiZaP/dp+pU831KvvTYcGSi1n9m9ovw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\Aplicacion.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\netLis_Sistemas-distribuidos\\Aplicacion\\Aplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",

@@ -27,14 +27,14 @@ namespace Aplicacion.Religion
 
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var religion = new TblCatReligion
+                var model = new TblCatReligion
                 {
                     IdReigion = Guid.NewGuid(),
                     Descripcion = request.Descripcion,
 
                 };
 
-                _context.TblCatReligion.Add(religion);
+                _context.TblCatReligion.Add(model);
                 var valor = await _context.SaveChangesAsync();
                 if (valor > 0)
                 {
