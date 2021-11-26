@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\netLis\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\Aplicacion.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\obj\\",
+        "projectPath": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Aplicacion\\Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\SozaK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SozaK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\Dominio.csproj"
+              "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Dominio\\Dominio.csproj"
               },
-              "C:\\Users\\HP\\Desktop\\netLis\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -71,24 +71,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\SozaK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SozaK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -163,24 +163,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\netLis\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\netLis\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\netLis\\Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\SozaK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SozaK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -195,8 +195,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\Dominio.csproj"
+              "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -255,24 +255,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\Seguridad.csproj": {
+    "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Seguridad\\Seguridad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\Seguridad.csproj",
+        "projectUniqueName": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Seguridad\\Seguridad.csproj",
         "projectName": "Seguridad",
-        "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\Seguridad.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\obj\\",
+        "projectPath": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Seguridad\\Seguridad.csproj",
+        "packagesPath": "C:\\Users\\SozaK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Seguridad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SozaK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -313,24 +313,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\netLis\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\netLis\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\netLis\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\SozaK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SozaK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -345,11 +345,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\Aplicacion.csproj"
+              "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Aplicacion\\Aplicacion.csproj"
               },
-              "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\Seguridad.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\Seguridad.csproj"
+              "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Seguridad\\Seguridad.csproj": {
+                "projectPath": "C:\\Users\\SozaK\\source\\repos\\netLis_Sistemas-distribuidos\\Seguridad\\Seguridad.csproj"
               }
             }
           }
@@ -393,7 +393,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
