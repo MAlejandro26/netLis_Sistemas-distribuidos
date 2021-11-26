@@ -9,13 +9,13 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Aplicacion.Pacientes
+namespace Aplicacion.AreasServs
 {
     public class Consulta
     {
-        public class Ejecuta : IRequest<List<TblPaciente>> { }
+        public class Ejecuta : IRequest<List<TblCatAreasServ>> { }
 
-        public class Manejador : IRequestHandler<Ejecuta, List<TblPaciente>>
+        public class Manejador : IRequestHandler<Ejecuta, List<TblCatAreasServ>>
         {
             private readonly netLisContext _context;
             public Manejador(netLisContext context)
@@ -23,9 +23,9 @@ namespace Aplicacion.Pacientes
                 _context = context;
             }
 
-            public async Task<List<TblPaciente>> Handle(Ejecuta request, CancellationToken cancellationToken)
+            public async Task<List<TblCatAreasServ>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var list = await _context.TblPacientes.ToListAsync();
+                var list = await _context.TblCatAreasServs.ToListAsync();
                 return list;
             }
         }

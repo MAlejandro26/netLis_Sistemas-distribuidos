@@ -8,13 +8,14 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Aplicacion.Religion
+namespace Aplicacion.AreasServs
 {
     public class Nuevo
     {
         public class Ejecuta : IRequest
         {
             public string Descripcion { get; set; }
+            public string DescripcionCorta { get; set; }
         }
 
         public class Manejador : IRequestHandler<Ejecuta>
@@ -27,20 +28,22 @@ namespace Aplicacion.Religion
 
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var model = new TblCatReligion
+                var model = new TblCatAreasServ
                 {
-                    IdReigion = Guid.NewGuid(),
+                    IdAreaServ = Guid.NewGuid(),
                     Descripcion = request.Descripcion,
+                    DescripcionCorta = request.DescripcionCorta,
+                    Estado = 1
 
                 };
 
-                _context.TblCatReligion.Add(model);
+                _context.TblCatAreasServs.Add(model);
                 var valor = await _context.SaveChangesAsync();
                 if (valor > 0)
                 {
                     return Unit.Value;
                 }
-                throw new Exception("No se pudo guardar la religión");
+                throw new Exception("No se pudo guardar el Area Servs");
             }
         }
     }

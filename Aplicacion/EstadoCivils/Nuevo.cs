@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Aplicacion.Religion
+namespace Aplicacion.EstadoCivils
 {
     public class Nuevo
     {
@@ -27,20 +27,21 @@ namespace Aplicacion.Religion
 
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var model = new TblCatReligion
+                var model = new TblCatEstadoCivil
                 {
-                    IdReigion = Guid.NewGuid(),
+                    IdEstadoCivil = Guid.NewGuid(),
                     Descripcion = request.Descripcion,
+                    Estado = 1
 
                 };
 
-                _context.TblCatReligion.Add(model);
+                _context.TblCatEstadoCivils.Add(model);
                 var valor = await _context.SaveChangesAsync();
                 if (valor > 0)
                 {
                     return Unit.Value;
                 }
-                throw new Exception("No se pudo guardar la religión");
+                throw new Exception("No se pudo guardar el estado civil");
             }
         }
     }

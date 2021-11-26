@@ -15,10 +15,6 @@
 
   <ItemGroup>
     <Folder Include="AreaServLabEmpleados\" />
-    <Folder Include="AreaServLabServicios\" />
-    <Folder Include="AreasServs\" />
-    <Folder Include="CategoriaExamenes\" />
-    <Folder Include="EstadoCivils\" />
     <Folder Include="Identificacions\" />
     <Folder Include="IndicacionExaPacientes\" />
     <Folder Include="Metodologia\" />

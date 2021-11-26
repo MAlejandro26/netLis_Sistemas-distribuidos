@@ -8,17 +8,17 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Aplicacion.Religion
+namespace Aplicacion.CategoriaExamenes
 {
     public class ConsultaId
     {
 
-        public class ReligionUnica : IRequest<TblCatReligion>
+        public class CatExaUnico : IRequest<TblCatCategoriaExamenes>
         {
             public Guid Id { get; set; }
         }
 
-        public class Manejador : IRequestHandler<ReligionUnica, TblCatReligion>
+        public class Manejador : IRequestHandler<CatExaUnico, TblCatCategoriaExamenes>
         {
 
             private readonly netLisContext _context;
@@ -27,9 +27,9 @@ namespace Aplicacion.Religion
                 _context = context;
             }
 
-            public async Task<TblCatReligion> Handle(ReligionUnica request, CancellationToken cancellationToken)
+            public async Task<TblCatCategoriaExamenes> Handle(CatExaUnico request, CancellationToken cancellationToken)
             {
-                var dato = await _context.TblCatReligion.FindAsync(request.Id);
+                var dato = await _context.TblCatCategoriaExamenes.FindAsync(request.Id);
                 /*if (tipoOrden == null)
                 {
                     throw new ManejadorExcepcion(HttpStatusCode.NotFound, new { mensaje = "El curso no existe" });

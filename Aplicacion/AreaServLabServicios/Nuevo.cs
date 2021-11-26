@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Aplicacion.Religion
+namespace Aplicacion.AreaServLabServicios
 {
     public class Nuevo
     {
@@ -27,20 +27,21 @@ namespace Aplicacion.Religion
 
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var model = new TblCatReligion
+                var model = new TblCatAreasLabServicio
                 {
-                    IdReigion = Guid.NewGuid(),
+                    IdAreaLabServicio = Guid.NewGuid(),
                     Descripcion = request.Descripcion,
+                    Estado = Guid.NewGuid(),
 
                 };
 
-                _context.TblCatReligion.Add(model);
+                _context.TblCatAreasLabServicios.Add(model);
                 var valor = await _context.SaveChangesAsync();
                 if (valor > 0)
                 {
                     return Unit.Value;
                 }
-                throw new Exception("No se pudo guardar la religión");
+                throw new Exception("No se pudo guardar el area lab servicio");
             }
         }
     }
