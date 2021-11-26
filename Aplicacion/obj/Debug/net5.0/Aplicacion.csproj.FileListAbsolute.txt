@@ -32,3 +32,20 @@ C:\Users\HP\Desktop\netLis\Aplicacion\obj\Debug\net5.0\Aplicacion.csproj.CopyCom
 C:\Users\HP\Desktop\netLis\Aplicacion\obj\Debug\net5.0\Aplicacion.dll
 C:\Users\HP\Desktop\netLis\Aplicacion\obj\Debug\net5.0\ref\Aplicacion.dll
 C:\Users\HP\Desktop\netLis\Aplicacion\obj\Debug\net5.0\Aplicacion.pdb
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Aplicacion\bin\Debug\net5.0\Aplicacion.deps.json
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Aplicacion\bin\Debug\net5.0\Aplicacion.dll
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Aplicacion\bin\Debug\net5.0\ref\Aplicacion.dll
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Aplicacion\bin\Debug\net5.0\Aplicacion.pdb
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Aplicacion\bin\Debug\net5.0\Dominio.dll
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Aplicacion\bin\Debug\net5.0\Persistencia.dll
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Aplicacion\bin\Debug\net5.0\Dominio.pdb
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Aplicacion\bin\Debug\net5.0\Persistencia.pdb
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Aplicacion\obj\Debug\net5.0\Aplicacion.csprojAssemblyReference.cache
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Aplicacion\obj\Debug\net5.0\Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Aplicacion\obj\Debug\net5.0\Aplicacion.AssemblyInfoInputs.cache
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Aplicacion\obj\Debug\net5.0\Aplicacion.AssemblyInfo.cs
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Aplicacion\obj\Debug\net5.0\Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Aplicacion\obj\Debug\net5.0\Aplicacion.csproj.CopyComplete
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Aplicacion\obj\Debug\net5.0\Aplicacion.dll
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Aplicacion\obj\Debug\net5.0\ref\Aplicacion.dll
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Aplicacion\obj\Debug\net5.0\Aplicacion.pdb

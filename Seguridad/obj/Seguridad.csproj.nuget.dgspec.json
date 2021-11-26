@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\Seguridad.csproj": {}
+    "C:\\Users\\NITRO V BLACK\\Desktop\\netLis_Sistemas-distribuidos\\Seguridad\\Seguridad.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\Seguridad.csproj": {
+    "C:\\Users\\NITRO V BLACK\\Desktop\\netLis_Sistemas-distribuidos\\Seguridad\\Seguridad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\Seguridad.csproj",
+        "projectUniqueName": "C:\\Users\\NITRO V BLACK\\Desktop\\netLis_Sistemas-distribuidos\\Seguridad\\Seguridad.csproj",
         "projectName": "Seguridad",
-        "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\Seguridad.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\obj\\",
+        "projectPath": "C:\\Users\\NITRO V BLACK\\Desktop\\netLis_Sistemas-distribuidos\\Seguridad\\Seguridad.csproj",
+        "packagesPath": "C:\\Users\\NITRO V BLACK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NITRO V BLACK\\Desktop\\netLis_Sistemas-distribuidos\\Seguridad\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\NITRO V BLACK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

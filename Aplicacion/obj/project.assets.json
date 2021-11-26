@@ -5919,24 +5919,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\NITRO V BLACK\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\Aplicacion.csproj",
+      "projectUniqueName": "C:\\Users\\NITRO V BLACK\\Desktop\\netLis_Sistemas-distribuidos\\Aplicacion\\Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\Aplicacion.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\obj\\",
+      "projectPath": "C:\\Users\\NITRO V BLACK\\Desktop\\netLis_Sistemas-distribuidos\\Aplicacion\\Aplicacion.csproj",
+      "packagesPath": "C:\\Users\\NITRO V BLACK\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\NITRO V BLACK\\Desktop\\netLis_Sistemas-distribuidos\\Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\NITRO V BLACK\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5950,11 +5945,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\Dominio.csproj"
+            "C:\\Users\\NITRO V BLACK\\Desktop\\netLis_Sistemas-distribuidos\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\NITRO V BLACK\\Desktop\\netLis_Sistemas-distribuidos\\Dominio\\Dominio.csproj"
             },
-            "C:\\Users\\HP\\Desktop\\netLis\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Persistencia\\Persistencia.csproj"
+            "C:\\Users\\NITRO V BLACK\\Desktop\\netLis_Sistemas-distribuidos\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "C:\\Users\\NITRO V BLACK\\Desktop\\netLis_Sistemas-distribuidos\\Persistencia\\Persistencia.csproj"
             }
           }
         }
@@ -5989,7 +5984,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

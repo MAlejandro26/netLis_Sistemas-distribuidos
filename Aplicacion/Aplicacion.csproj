@@ -20,14 +20,8 @@
     <Folder Include="CategoriaExamenes\" />
     <Folder Include="EstadoCivils\" />
     <Folder Include="Hospitals\" />
-    <Folder Include="Identificacions\" />
-    <Folder Include="IndicacionExaPacientes\" />
-    <Folder Include="Metodologia\" />
-    <Folder Include="Nacionalidads\" />
-    <Folder Include="Examenes\" />
     <Folder Include="Medicos\" />
     <Folder Include="Pacientes\" />
-    <Folder Include="ValoresNormales\" />
     <Folder Include="UnidadMedidas\" />
     <Folder Include="TipoUsuarios\" />
     <Folder Include="TipoServicios\" />
@@ -37,9 +31,7 @@
     <Folder Include="TipoMuestras\" />
     <Folder Include="Sucursales\" />
     <Folder Include="Sexos\" />
-    <Folder Include="PerfilesExamenes\" />
     <Folder Include="Perfiles\" />
-    <Folder Include="Ocupaciones\" />
   </ItemGroup>
 
 </Project>

@@ -28,3 +28,18 @@ C:\Users\HP\Desktop\netLis\Dominio\obj\Debug\net5.0\Dominio.dll
 C:\Users\HP\Desktop\netLis\Dominio\obj\Debug\net5.0\ref\Dominio.dll
 C:\Users\HP\Desktop\netLis\Dominio\obj\Debug\net5.0\Dominio.pdb
 C:\Users\HP\Desktop\netLis\Dominio\obj\Debug\net5.0\Dominio.genruntimeconfig.cache
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Dominio\bin\Debug\net5.0\Dominio.deps.json
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Dominio\bin\Debug\net5.0\Dominio.runtimeconfig.json
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Dominio\bin\Debug\net5.0\Dominio.runtimeconfig.dev.json
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Dominio\bin\Debug\net5.0\Dominio.dll
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Dominio\bin\Debug\net5.0\ref\Dominio.dll
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Dominio\bin\Debug\net5.0\Dominio.pdb
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Dominio\obj\Debug\net5.0\Dominio.csprojAssemblyReference.cache
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Dominio\obj\Debug\net5.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfo.cs
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Dominio\obj\Debug\net5.0\Dominio.dll
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Dominio\obj\Debug\net5.0\ref\Dominio.dll
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Dominio\obj\Debug\net5.0\Dominio.pdb
+C:\Users\NITRO V BLACK\Desktop\netLis_Sistemas-distribuidos\Dominio\obj\Debug\net5.0\Dominio.genruntimeconfig.cache
