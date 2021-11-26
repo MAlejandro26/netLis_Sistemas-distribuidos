@@ -1,4 +1,5 @@
-﻿using Dominio.Model;
+﻿using Dominio;
+using Dominio.Model;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;

@@ -87,5 +87,6 @@ namespace Dominio.Model
         public DbSet<TblOrdenesDetalle> TblOrdenesDetalles { get; set; }
         public DbSet<TblPaciente> TblPacientes { get; set; }
         public DbSet<TblResultado> TblResultados { get; set; }
+        public object TblCatDepartamento { get; set; }
     }
 }

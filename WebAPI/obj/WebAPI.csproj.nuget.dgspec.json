@@ -1,46 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JorgeL\\source\\repos\\netLis\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\HP\\Desktop\\netLis\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JorgeL\\source\\repos\\netLis\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JorgeL\\source\\repos\\netLis\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "C:\\Users\\JorgeL\\source\\repos\\netLis\\Aplicacion\\Aplicacion.csproj",
-        "packagesPath": "C:\\Users\\JorgeL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JorgeL\\source\\repos\\netLis\\Aplicacion\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JorgeL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.episerver.com/feed/packages.svc/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\JorgeL\\source\\repos\\netLis\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\JorgeL\\source\\repos\\netLis\\Dominio\\Dominio.csproj"
+              "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\Dominio.csproj"
               },
-              "C:\\Users\\JorgeL\\source\\repos\\netLis\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\JorgeL\\source\\repos\\netLis\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\HP\\Desktop\\netLis\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -75,37 +71,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\JorgeL\\source\\repos\\netLis\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JorgeL\\source\\repos\\netLis\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\JorgeL\\source\\repos\\netLis\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\JorgeL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JorgeL\\source\\repos\\netLis\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JorgeL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.episerver.com/feed/packages.svc/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -171,44 +163,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\JorgeL\\source\\repos\\netLis\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\HP\\Desktop\\netLis\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JorgeL\\source\\repos\\netLis\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\netLis\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\JorgeL\\source\\repos\\netLis\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\JorgeL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JorgeL\\source\\repos\\netLis\\Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\netLis\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JorgeL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.episerver.com/feed/packages.svc/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\JorgeL\\source\\repos\\netLis\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\JorgeL\\source\\repos\\netLis\\Dominio\\Dominio.csproj"
+              "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -267,37 +255,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\JorgeL\\source\\repos\\netLis\\Seguridad\\Seguridad.csproj": {
+    "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\Seguridad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JorgeL\\source\\repos\\netLis\\Seguridad\\Seguridad.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\Seguridad.csproj",
         "projectName": "Seguridad",
-        "projectPath": "C:\\Users\\JorgeL\\source\\repos\\netLis\\Seguridad\\Seguridad.csproj",
-        "packagesPath": "C:\\Users\\JorgeL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JorgeL\\source\\repos\\netLis\\Seguridad\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\Seguridad.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JorgeL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.episerver.com/feed/packages.svc/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -329,47 +313,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\JorgeL\\source\\repos\\netLis\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\HP\\Desktop\\netLis\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JorgeL\\source\\repos\\netLis\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\netLis\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\JorgeL\\source\\repos\\netLis\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\JorgeL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JorgeL\\source\\repos\\netLis\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\netLis\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JorgeL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.episerver.com/feed/packages.svc/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\JorgeL\\source\\repos\\netLis\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "C:\\Users\\JorgeL\\source\\repos\\netLis\\Aplicacion\\Aplicacion.csproj"
+              "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\Aplicacion.csproj"
               },
-              "C:\\Users\\JorgeL\\source\\repos\\netLis\\Seguridad\\Seguridad.csproj": {
-                "projectPath": "C:\\Users\\JorgeL\\source\\repos\\netLis\\Seguridad\\Seguridad.csproj"
+              "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\Seguridad.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\Seguridad.csproj"
               }
             }
           }
@@ -413,7 +393,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
