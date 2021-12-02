@@ -9,13 +9,13 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Aplicacion.Perfiles
+namespace Aplicacion.Sexos
 {
     public class Consulta
     {
-        public class Ejecuta : IRequest<List<TblCatPerfiles>> { }
+        public class Ejecuta : IRequest<List<TblCatSexo>> { }
 
-        public class Manejador : IRequestHandler<Ejecuta, List<TblCatPerfiles>>
+        public class Manejador : IRequestHandler<Ejecuta, List<TblCatSexo>>
         {
             private readonly netLisContext _context;
             public Manejador(netLisContext context)
@@ -23,12 +23,12 @@ namespace Aplicacion.Perfiles
                 _context = context;
             }
 
-            public async Task<List<TblCatPerfiles>> Handle(Ejecuta request, CancellationToken cancellationtoken)
+            public async Task<List<TblCatSexo>> Handle(Ejecuta request, CancellationToken cancellationtoken)
             {
-                var perfiles = await _context.TblCatPerfiles.Where(x => x.Estado != 0).ToListAsync();
-                return perfiles;
+                var sexos = await _context.TblCatSexos.ToListAsync();
+                return sexos;
             }
         }
+
     }
-    
 }

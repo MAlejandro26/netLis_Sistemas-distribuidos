@@ -24,7 +24,7 @@ namespace Aplicacion.TipoMuestras
 
             public async Task<List<TblCatTipoMuestra>> Handle(Ejecuta request, CancellationToken cancellationtoken)
             {
-                var tipoMuestras = await _context.TblCatTipoMuestras.ToListAsync();
+                var tipoMuestras = await _context.TblCatTipoMuestras.Where(x => x.Estado != 0).ToListAsync();
                 return tipoMuestras;
             }
         }

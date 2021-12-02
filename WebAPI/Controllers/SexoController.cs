@@ -1,4 +1,4 @@
-﻿using Aplicacion.Sucursales;
+﻿using Aplicacion.Sexos;
 using Dominio.Model;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -11,18 +11,18 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class SucursalController : MiControllerBase
+    public class SexoController : MiControllerBase
     {
         [HttpGet]
-        public async Task<ActionResult<List<TblCatSucursales>>> Get()
+        public async Task<ActionResult<List<TblCatSexo>>> Get()
         {
             return await Mediator.Send(new Consulta.Ejecuta());
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<TblCatSucursales>> Detalle(Guid id)
+        public async Task<ActionResult<TblCatSexo>> Detalle(Guid id)
         {
-            return await Mediator.Send(new ConsultaId.SucursalUnica { Id = id });
+            return await Mediator.Send(new ConsultaId.SexoUnico { Id = id });
         }
 
         [HttpPost]
@@ -31,11 +31,10 @@ namespace WebAPI.Controllers
             return await Mediator.Send(data);
         }
 
-
         [HttpPut("{id}")]
         public async Task<ActionResult<Unit>> Editar(Guid id, Editar.Ejecuta data)
         {
-            data.IdSucursal = id;
+            data.IdSexo = id;
             return await Mediator.Send(data);
         }
 
@@ -43,7 +42,7 @@ namespace WebAPI.Controllers
         [HttpPut("{id}")]
         public async Task<ActionResult<Unit>> Eliminar(Guid id, Eliminar.Ejecuta data)
         {
-            data.IdSucursal = id;
+            data.IdSexo = id;
             return await Mediator.Send(data);
         }
     }

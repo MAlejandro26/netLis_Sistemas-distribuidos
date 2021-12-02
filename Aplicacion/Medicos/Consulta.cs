@@ -24,7 +24,7 @@ namespace Aplicacion.Medicos
 
             public async Task<List<TblMedico>> Handle(Ejecuta request, CancellationToken cancellationtoken)
             {
-                var medicos = await _context.TblMedicos.ToListAsync();
+                var medicos = await _context.TblMedicos.Where(x => x.Estado != 0).ToListAsync();
                 return medicos;
             }
         }

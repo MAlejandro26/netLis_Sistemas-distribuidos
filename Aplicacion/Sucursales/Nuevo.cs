@@ -42,6 +42,7 @@ namespace Aplicacion.Sucursales
                     Direccion = request.Direccion,
                     Telefono = request.Telefono,
                     UrlLogo = request.UrlLogo,
+                    Estado = 1,
                 };
 
                 _context.TblCatSucursales.Add(sucursal);
