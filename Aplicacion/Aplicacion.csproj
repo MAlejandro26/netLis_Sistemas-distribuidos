@@ -31,7 +31,6 @@
     <Folder Include="TipoServicios\" />
     <Folder Include="TipoSangre\" />
     <Folder Include="TipoResultados\" />
-    <Folder Include="Sexos\" />
     <Folder Include="PerfilesExamenes\" />
     <Folder Include="Ocupaciones\" />
   </ItemGroup>
