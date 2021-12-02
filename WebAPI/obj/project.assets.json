@@ -6055,11 +6055,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\netLis\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\netLis_Sistemas-distribuidos\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\netLis_Sistemas-distribuidos\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\netLis\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\netLis_Sistemas-distribuidos\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6080,11 +6080,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Aplicacion\\Aplicacion.csproj"
+            "C:\\Users\\HP\\Desktop\\netLis_Sistemas-distribuidos\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\netLis_Sistemas-distribuidos\\Aplicacion\\Aplicacion.csproj"
             },
-            "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\Seguridad.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\netLis\\Seguridad\\Seguridad.csproj"
+            "C:\\Users\\HP\\Desktop\\netLis_Sistemas-distribuidos\\Seguridad\\Seguridad.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\netLis_Sistemas-distribuidos\\Seguridad\\Seguridad.csproj"
             }
           }
         }
