@@ -1,5 +1,6 @@
 ﻿using Dominio;
 using Dominio.Model;
+using FluentValidation;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,14 @@ namespace Aplicacion.AreasServs
         {
             public string Descripcion { get; set; }
             public string DescripcionCorta { get; set; }
+        }
+        public class EjecutaValidacion : AbstractValidator<Ejecuta>
+        {
+            public EjecutaValidacion()
+            {
+                RuleFor(x => x.Descripcion).NotEmpty();
+                RuleFor(x => x.DescripcionCorta).NotEmpty();
+            }
         }
 
         public class Manejador : IRequestHandler<Ejecuta>

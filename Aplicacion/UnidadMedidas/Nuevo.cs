@@ -1,5 +1,6 @@
 ﻿using Dominio;
 using Dominio.Model;
+using FluentValidation;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,14 @@ namespace Aplicacion.UnidadMedidas
         public class Ejecuta : IRequest
         {
             public string UnidadMedida { get; set; }
+        }
+
+        public class EjecutaValidacion : AbstractValidator<Ejecuta>
+        {
+            public EjecutaValidacion()
+            {
+                RuleFor(x => x.UnidadMedida).NotEmpty();
+            }
         }
 
         public class Manejador : IRequestHandler<Ejecuta>

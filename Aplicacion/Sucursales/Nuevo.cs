@@ -1,5 +1,6 @@
 ﻿using Dominio;
 using Dominio.Model;
+using FluentValidation;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,18 @@ namespace Aplicacion.Sucursales
             public String Direccion { get; set; }
             public String Telefono { get; set; }
             public String UrlLogo { get; set; }
+        }
+
+        public class EjecutaValidacion : AbstractValidator<Ejecuta>
+        {
+            public EjecutaValidacion()
+            {
+                RuleFor(x => x.IdHospital).NotEmpty();
+                RuleFor(x => x.IdDepartamento).NotEmpty();
+                RuleFor(x => x.IdPais).NotEmpty();
+                RuleFor(x => x.Descripcion).NotEmpty();
+                RuleFor(x => x.Direccion).NotEmpty();
+            }
         }
 
         public class Manejador : IRequestHandler<Ejecuta>

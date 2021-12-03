@@ -1,9 +1,11 @@
-﻿using Dominio;
+﻿using Aplicacion.ManejadorError;
+using Dominio;
 using Dominio.Model;
 using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -30,9 +32,9 @@ namespace Aplicacion.Sucursales
                 var dato = await _context.TblCatPerfiles.FindAsync(request.IdSucursal);
                 if (dato == null)
                 {
-                    throw new Exception("La sucursal no existe");
+                    //throw new Exception("El curso no existe");
+                    throw new ManejadorExcepcion(HttpStatusCode.NotFound, new { mensaje = "La sucursal no existe" });
                 }
-
                 dato.Estado = 0;
 
                 var resultado = await _context.SaveChangesAsync();

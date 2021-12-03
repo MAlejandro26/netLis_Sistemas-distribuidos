@@ -1,4 +1,5 @@
-﻿using Dominio.Model;
+﻿using Aplicacion.ManejadorError;
+using Dominio.Model;
 using MediatR;
 using Persistencia;
 using System;
@@ -27,10 +28,11 @@ namespace Aplicacion.Religion
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
                 var dato = await _context.TblCatReligion.FindAsync(request.Id);
-                //if (curso == null)
-                //{
-                //    throw new ManejadorExcepcion(HttpStatusCode.NotFound, new { curso = "No se encontró el curso" });
-                //}
+                if (dato == null)
+                {
+                    //throw new Exception("El curso no existe");
+                    throw new ManejadorExcepcion(HttpStatusCode.NotFound, new { mensaje = "La religión no existe" });
+                }
                 _context.Remove(dato);
 
                 var resultado = await _context.SaveChangesAsync();

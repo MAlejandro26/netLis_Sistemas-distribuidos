@@ -210,3 +210,7 @@ C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\WebAPI\obj\Debug\net5.0\WebAPI.
 C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
 C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\WebAPI\obj\Debug\net5.0\WebAPI.pdb
 C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
+C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\WebAPI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\WebAPI\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\WebAPI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs

@@ -1,9 +1,11 @@
-﻿using Dominio;
+﻿using Aplicacion.ManejadorError;
+using Dominio;
 using Dominio.Model;
 using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -30,10 +32,11 @@ namespace Aplicacion.Medicos
                 var dato = await _context.TblMedicos.FindAsync(request.IdMedico);
                 if (dato == null)
                 {
-                    throw new Exception("El médico no existe");
+                    //throw new Exception("El curso no existe");
+                    throw new ManejadorExcepcion(HttpStatusCode.NotFound, new { mensaje = "El medico no existe" });
                 }
                 dato.FechaEliminacion = DateTime.Today;
-                dato.Estado = 0;
+                dato.Estado = 3;
                 var resultado = await _context.SaveChangesAsync();
                 if (resultado > 0)
                 {

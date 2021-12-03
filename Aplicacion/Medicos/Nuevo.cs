@@ -1,5 +1,6 @@
 ﻿using Dominio;
 using Dominio.Model;
+using FluentValidation;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -31,6 +32,24 @@ namespace Aplicacion.Medicos
             public string Telefono { get; set; }
             public string UrlFoto { get; set; }
             public int Estado { get; set; }
+        }
+
+        public class EjecutaValidacion : AbstractValidator<Ejecuta>
+        {
+            public EjecutaValidacion()
+            {
+                RuleFor(x => x.Nombres).NotEmpty();
+                RuleFor(x => x.Apellidos).NotEmpty();
+                RuleFor(x => x.IdtblCatSucursales).NotEmpty();
+                RuleFor(x => x.IdDepartamentoNac).NotEmpty();
+                RuleFor(x => x.IdDepartamentoRes).NotEmpty();
+                RuleFor(x => x.IdPaisNac).NotEmpty();
+                RuleFor(x => x.IdPaisRes).NotEmpty();
+                RuleFor(x => x.IdIdentificacion).NotEmpty();
+                RuleFor(x => x.IdEstadoCivil).NotEmpty();
+                RuleFor(x => x.IdSexo).NotEmpty();
+                RuleFor(x => x.FechaNac).NotEmpty();
+            }
         }
 
         public class Manejador : IRequestHandler<Ejecuta>

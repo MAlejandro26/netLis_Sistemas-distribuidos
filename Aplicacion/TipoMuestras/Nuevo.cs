@@ -1,5 +1,6 @@
 ﻿using Dominio;
 using Dominio.Model;
+using FluentValidation;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,13 @@ namespace Aplicacion.TipoMuestras
 
         }
 
+        public class EjecutaValidacion : AbstractValidator<Ejecuta>
+        {
+            public EjecutaValidacion()
+            {
+                RuleFor(x => x.Descripcion).NotEmpty();
+            }
+        }
         public class Manejador : IRequestHandler<Ejecuta>
         {
             private readonly netLisContext _context;

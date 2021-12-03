@@ -1,9 +1,11 @@
-﻿using Dominio;
+﻿using Aplicacion.ManejadorError;
+using Dominio;
 using Dominio.Model;
 using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -32,8 +34,8 @@ namespace Aplicacion.TipoMuestras
                 var dato = await _context.TblCatTipoMuestras.FindAsync(request.IdTipoMuestra);
                 if (dato == null)
                 {
-                    throw new Exception("El tipo de eliminar no existe");
-
+                    //throw new Exception("El curso no existe");
+                    throw new ManejadorExcepcion(HttpStatusCode.NotFound, new { mensaje = "Tipo muestra no existe" });
                 }
 
                 dato.Estado = 0;

@@ -1,5 +1,6 @@
 ﻿using Dominio;
 using Dominio.Model;
+using FluentValidation;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,16 @@ namespace Aplicacion.AreaServLabEmpleados
             public Guid IdAreaLabServicio { get; set; }
             public Guid IdEmpleado { get; set; }
             public Guid IdSucursal { get; set; }
+        }
+
+        public class EjecutaValidacion : AbstractValidator<Ejecuta>
+        {
+            public EjecutaValidacion()
+            {
+                RuleFor(x => x.IdAreaLabServicio).NotEmpty();
+                RuleFor(x => x.IdEmpleado).NotEmpty();
+                RuleFor(x => x.IdSucursal).NotEmpty();
+            }
         }
 
         public class Manejador : IRequestHandler<Ejecuta>
