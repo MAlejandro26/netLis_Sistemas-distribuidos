@@ -34,3 +34,10 @@ C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\Seguridad\obj\Debug\net5.0\Segu
 C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\Seguridad\obj\Debug\net5.0\Seguridad.dll
 C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\Seguridad\obj\Debug\net5.0\ref\Seguridad.dll
 C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\Seguridad\obj\Debug\net5.0\Seguridad.pdb
+C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\Seguridad\bin\Debug\net5.0\Aplicacion.dll
+C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\Seguridad\bin\Debug\net5.0\Dominio.dll
+C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\Seguridad\bin\Debug\net5.0\Persistencia.dll
+C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\Seguridad\bin\Debug\net5.0\Aplicacion.pdb
+C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\Seguridad\bin\Debug\net5.0\Dominio.pdb
+C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\Seguridad\bin\Debug\net5.0\Persistencia.pdb
+C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\Seguridad\obj\Debug\net5.0\Seguridad.csproj.CopyComplete

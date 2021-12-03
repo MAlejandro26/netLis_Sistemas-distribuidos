@@ -214,3 +214,4 @@ C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\WebAPI\bin\Debug\net5.0\FluentV
 C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\WebAPI\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\WebAPI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP\Desktop\netLis_Sistemas-distribuidos\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
