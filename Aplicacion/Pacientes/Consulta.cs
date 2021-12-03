@@ -25,7 +25,7 @@ namespace Aplicacion.Pacientes
 
             public async Task<List<TblPaciente>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var list = await _context.TblPacientes.ToListAsync();
+                var list = await _context.TblPacientes.Where(x => x.Estado != 3).ToListAsync();
                 return list;
             }
         }

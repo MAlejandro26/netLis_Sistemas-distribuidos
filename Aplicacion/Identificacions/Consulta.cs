@@ -25,7 +25,7 @@ namespace Aplicacion.Identificacions
 
             public async Task<List<TblCatIdentificacion>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var identificacion = await _context.TblCatIdentificacions.ToListAsync();
+                var identificacion = await _context.TblCatIdentificacions.Where(x => x.Estado != 3).ToListAsync();
                 return identificacion;
             }
         }

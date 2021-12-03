@@ -21,18 +21,17 @@ namespace WebAPI.Controllers
         {
             return await Mediator.Send(data);
         }
+        [HttpPost("registrar")]
+        public async Task<ActionResult<UsuarioData>> Registrar(Registrar.Ejecuta paametros)
+        {
+            return await Mediator.Send(paametros);
+        }
 
-        //[HttpPost("registrar")]
-        //public async Task<ActionResult<UsuarioData>> Registrar(Registrar.Ejecuta paametros)
-        //{
-        //    return await Mediator.Send(paametros);
-        //}
-
-        //// http://localhost:5000/api/Usuario
-        //[HttpGet]
-        //public async Task<ActionResult<UsuarioData>> DevolverUsuario()
-        //{
-        //    return await Mediator.Send(new UsuarioActual.Ejecutar());
-        //}
+        // http://localhost:5000/api/Usuario
+        [HttpGet]
+        public async Task<ActionResult<UsuarioData>> DevolverUsuario()
+        {
+            return await Mediator.Send(new UsuarioActual.Ejecutar());
+        }
     }
 }

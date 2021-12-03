@@ -25,7 +25,7 @@ namespace Aplicacion.Hospitals
 
             public async Task<List<TblCatHospital>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var hospital = await _context.TblCatHospitals.ToListAsync();
+                var hospital = await _context.TblCatHospitals.Where(x => x.Estado != 3).ToListAsync();
                 return hospital;
             }
         }

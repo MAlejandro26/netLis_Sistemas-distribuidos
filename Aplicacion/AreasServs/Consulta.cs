@@ -25,7 +25,7 @@ namespace Aplicacion.AreasServs
 
             public async Task<List<TblCatAreasServ>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var list = await _context.TblCatAreasServs.ToListAsync();
+                var list = await _context.TblCatAreasServs.Where(x => x.Estado != 3).ToListAsync();
                 return list;
             }
         }

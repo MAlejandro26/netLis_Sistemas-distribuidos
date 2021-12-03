@@ -25,7 +25,7 @@ namespace Aplicacion.EstadoCivils
 
             public async Task<List<TblCatEstadoCivil>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var list = await _context.TblCatEstadoCivils.ToListAsync();
+                var list = await _context.TblCatEstadoCivils.Where(x => x.Estado != 3).ToListAsync();
                 return list;
             }
         }

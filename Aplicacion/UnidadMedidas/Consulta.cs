@@ -25,7 +25,7 @@ namespace Aplicacion.UnidadMedidas
 
             public async Task<List<TblCatUnidadMedida>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var list = await _context.TblCatUnidadMedidas.ToListAsync();
+                var list = await _context.TblCatUnidadMedidas.Where(x => x.Estado != 3).ToListAsync();
                 return list;
             }
         }

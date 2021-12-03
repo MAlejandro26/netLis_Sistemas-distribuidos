@@ -24,7 +24,7 @@ namespace Aplicacion.Pais
             }
             public async Task<List<TblCatPais>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var pais = await _context.TblCatPais.ToListAsync();
+                var pais = await _context.TblCatPais.Where(x => x.Estado != 3).ToListAsync();
                 return pais;
             }
         }

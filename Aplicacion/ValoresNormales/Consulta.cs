@@ -25,7 +25,7 @@ namespace Aplicacion.ValoresNormales
 
             public async Task<List<TblCatValoresNormales>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var valores = await _context.TblCatValoresNormales.ToListAsync();
+                var valores = await _context.TblCatValoresNormales.Where(x => x.Estado != 3).ToListAsync();
                 return valores;
             }
         }

@@ -24,7 +24,7 @@ namespace Aplicacion.Sucursales
 
             public async Task<List<TblCatSucursales>> Handle(Ejecuta request, CancellationToken cancellationtoken)
             {
-                var sucursales = await _context.TblCatSucursales.Where(x => x.Estado != 0).ToListAsync();
+                var sucursales = await _context.TblCatSucursales.Where(x => x.Estado != 3).ToListAsync();
                 return sucursales;
             }
         }

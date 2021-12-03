@@ -2,6 +2,7 @@
 using Aplicacion.Perfiles;
 using Dominio.Model;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -26,7 +27,7 @@ namespace WebAPI.Controllers
            return await Mediator.Send(new ConsultaId.CatPerfilUnico { Id = id });
        }
 
-       [HttpPost]
+       [HttpPost("nuevo")]
        public async Task<ActionResult<Unit>> Crear(Nuevo.Ejecuta data)
        {
            return await Mediator.Send(data);

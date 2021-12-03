@@ -25,7 +25,7 @@ namespace Aplicacion.Metodologia
 
             public async Task<List<TblCatMetodologia>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var metodologia = await _context.TblCatMetodologia.ToListAsync();
+                var metodologia = await _context.TblCatMetodologia.Where(x => x.Estado != 3).ToListAsync();
                 return metodologia;
             }
         }

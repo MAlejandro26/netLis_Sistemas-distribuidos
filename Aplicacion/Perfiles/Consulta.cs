@@ -25,7 +25,7 @@ namespace Aplicacion.Perfiles
 
             public async Task<List<TblCatPerfiles>> Handle(Ejecuta request, CancellationToken cancellationtoken)
             {
-                var perfiles = await _context.TblCatPerfiles.Where(x => x.Estado != 0).ToListAsync();
+                var perfiles = await _context.TblCatPerfiles.Where(x => x.Estado != 3).ToListAsync();
                 return perfiles;
             }
         }

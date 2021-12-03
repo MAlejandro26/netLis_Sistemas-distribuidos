@@ -43,9 +43,7 @@ namespace WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddCors(o => o.AddPolicy("corsApp", builder => {
-                builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
-            }));
+            services.AddCors();
             services.AddDbContext<netLisContext>(opt => {
                 opt.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
@@ -65,9 +63,9 @@ namespace WebAPI
             services.TryAddSingleton<ISystemClock, SystemClock>();
 
             services.AddScoped<IJwtGenerador, JwtGenerador>();
-            //services.AddScoped<IUsuarioSesion, UsuarioSesion>();
-            //services.AddHttpContextAccessor();
-            //services.AddAutoMapper(typeof(Consulta));
+            services.AddScoped<IUsuarioSesion, UsuarioSesion>();
+            services.AddHttpContextAccessor();
+            //services.AddAutoMapper(typeof(Consulta.Manejador));
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Mi Palabra secreta"));
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
@@ -85,6 +83,13 @@ namespace WebAPI
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors(options =>
+            {
+                options.WithOrigins("http://localhost:3000/");
+                options.AllowAnyMethod();
+                options.AllowAnyOrigin();
+                options.AllowAnyHeader();
+            });
             app.UseMiddleware<ManejadorErrorMiddleware>();
             if (env.IsDevelopment())
             {

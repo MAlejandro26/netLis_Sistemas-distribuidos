@@ -25,7 +25,7 @@ namespace Aplicacion.CategoriaExamenes
 
             public async Task<List<TblCatCategoriaExamenes>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var list = await _context.TblCatCategoriaExamenes.ToListAsync();
+                var list = await _context.TblCatCategoriaExamenes.Where(x => x.Estado != 3).ToListAsync();
                 return list;
             }
         }

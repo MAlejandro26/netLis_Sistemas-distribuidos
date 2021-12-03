@@ -1,6 +1,7 @@
 ﻿using Aplicacion.Pais;
 using Dominio.Model;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,9 @@ using System.Threading.Tasks;
 
 namespace WebAPI.Controllers
 {
+    
     [Route("api/[controller]")]
+    //[AllowAnonymous]
     [ApiController]
     public class PaisController : MiControllerBase
     {
