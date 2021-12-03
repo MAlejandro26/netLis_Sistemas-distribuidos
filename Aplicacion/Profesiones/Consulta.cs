@@ -25,7 +25,7 @@ namespace Aplicacion.Profesiones
 
             public async Task<List<TblCatProfesiones>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var profesiones = await _context.TblCatProfesiones.ToListAsync();
+                var profesiones = await _context.TblCatProfesiones.Where(x => x.Estado != 3).ToListAsync();
                 return profesiones;
             }
         }

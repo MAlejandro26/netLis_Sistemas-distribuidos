@@ -27,5 +27,11 @@ namespace WebAPI.Controllers
             return await Mediator.Send(new ConsultaId.DPTUnico { Id = id });
         }
 
+        [HttpPost]
+        public async Task<ActionResult<Unit>> Crear(Nuevo.Ejecuta data)
+        {
+            return await Mediator.Send(data);
+        }
+
     }
 }

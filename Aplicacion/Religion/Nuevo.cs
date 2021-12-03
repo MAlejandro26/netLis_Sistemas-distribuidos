@@ -1,5 +1,6 @@
 ﻿using Dominio;
 using Dominio.Model;
+using FluentValidation;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,14 @@ namespace Aplicacion.Religion
             public string Descripcion { get; set; }
         }
 
+        public class EjecutaValidacion : AbstractValidator<Ejecuta>
+        {
+            public EjecutaValidacion()
+            {
+                RuleFor(x => x.Descripcion).NotEmpty();
+            }
+        }
+
         public class Manejador : IRequestHandler<Ejecuta>
         {
             private readonly netLisContext _context;
@@ -27,14 +36,14 @@ namespace Aplicacion.Religion
 
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var religion = new TblCatReligion
+                var model = new TblCatReligion
                 {
                     IdReigion = Guid.NewGuid(),
                     Descripcion = request.Descripcion,
 
                 };
 
-                _context.TblCatReligion.Add(religion);
+                _context.TblCatReligion.Add(model);
                 var valor = await _context.SaveChangesAsync();
                 if (valor > 0)
                 {

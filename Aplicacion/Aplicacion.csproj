@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.5" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
   </ItemGroup>
 
@@ -15,27 +16,17 @@
 
   <ItemGroup>
     <Folder Include="AreaServLabEmpleados\" />
-    <Folder Include="AreaServLabServicios\" />
-    <Folder Include="AreasServs\" />
-    <Folder Include="CategoriaExamenes\" />
-    <Folder Include="EstadoCivils\" />
-    <Folder Include="Hospitals\" />
     <Folder Include="Identificacions\" />
     <Folder Include="IndicacionExaPacientes\" />
     <Folder Include="Metodologia\" />
     <Folder Include="Nacionalidads\" />
     <Folder Include="Examenes\" />
     <Folder Include="Medicos\" />
-    <Folder Include="Pacientes\" />
     <Folder Include="ValoresNormales\" />
-    <Folder Include="UnidadMedidas\" />
-    <Folder Include="TipoUsuarios\" />
-    <Folder Include="TipoServicios\" />
-    <Folder Include="TipoSangre\" />
-    <Folder Include="TipoResultados\" />
     <Folder Include="TipoOrdens\" />
     <Folder Include="TipoMuestras\" />
     <Folder Include="Sucursales\" />
+    <Folder Include="Sexos\" />
     <Folder Include="PerfilesExamenes\" />
     <Folder Include="Perfiles\" />
     <Folder Include="Ocupaciones\" />

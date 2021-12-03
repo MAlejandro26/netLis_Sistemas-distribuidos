@@ -51,6 +51,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.5, )"
+            },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -286,7 +290,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\HP\\Desktop\\netLis_Sistemas-distribuidos\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\netLis_Sistemas-distribuidos\\Aplicacion\\Aplicacion.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -364,6 +372,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.12, )"
@@ -373,6 +385,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.12, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [

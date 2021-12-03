@@ -25,8 +25,8 @@ namespace Aplicacion.Religion
 
             public async Task<List<TblCatReligion>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var religion = await _context.TblCatReligion.ToListAsync();
-                return religion;
+                var list = await _context.TblCatReligion.ToListAsync();
+                return list;
             }
         }
     }

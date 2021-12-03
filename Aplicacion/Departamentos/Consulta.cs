@@ -25,7 +25,7 @@ namespace Aplicacion.Departamentos
 
             public async Task<List<TblCatDepartamento>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var departamento = await _context.TblCatDepartamentos.ToListAsync();
+                var departamento = await _context.TblCatDepartamentos.Where(x => x.Estado != 3).ToListAsync();
                 return departamento;
             }
         }
